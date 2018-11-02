@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  rancher:
+    image: rancher/rancher:v2.1.0-rc9
+    restart: always
+    ports:
+    - "80:80/tcp"
+    - "443:443/tcp"
+    volumes:
+    - "rancher-data:/var/lib/rancher"
+
+volumes:
+  rancher-data:
