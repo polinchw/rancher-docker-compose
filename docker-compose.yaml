@@ -2,7 +2,7 @@ version: '2'
 
 services:
   rancher:
-    image: rancher/rancher:v2.1.0-rc9
+    image: rancher/rancher:latest
     restart: always
     ports:
     - "80:80/tcp"
