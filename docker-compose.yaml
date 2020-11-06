@@ -9,6 +9,7 @@ services:
     - "443:443/tcp"
     volumes:
     - "rancher-data:/var/lib/rancher"
+    privileged: true
 
 volumes:
   rancher-data:
