@@ -6,6 +6,6 @@ Install Rancher with the docker-compose.yaml in this project with the following 
 
 ### Kubernetes DNS
 
-This can be a handy way add to DNS entries into the Kubernetes DNS:
+This can be a handy way to add DNS entries into the Kubernetes DNS:
 
 [https://coredns.io/2017/05/08/custom-dns-entries-for-kubernetes/](https://coredns.io/2017/05/08/custom-dns-entries-for-kubernetes/)
